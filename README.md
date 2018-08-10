@@ -15,7 +15,7 @@ $ docker run --rm cidr32/minergate-cli -help
 
 Fetch logs of a container:
 
-$ docker logs some-minergate-cli
+$ docker logs minergate-cli
 
 # minergate-cli Usage:
 
@@ -37,6 +37,8 @@ minergate-cli [options] <currency-settings> <gpu-settings>
 
 Examples:
 
-  minergate-cli -u minergate@minergate.com --bcn 4
+  minergate-cli -u ACCOUNT-EMAIL --bcn 4
 
-  minergate-cli --user minergate@minergate.com --eth 6 -g
+  minergate-cli --user ACCOUNT-EMAIL --eth 6 -g
+  
+  minergate-cli --gpu --no-cpu --user ACCOUNT-EMAIL --xmr
