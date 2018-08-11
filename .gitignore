@@ -2,6 +2,7 @@
 !.dockerignore
 !.editorconfig
 !.gitattributes
+!.gitignore
 !Dockerfile
 !README-short.txt
 !README.md
